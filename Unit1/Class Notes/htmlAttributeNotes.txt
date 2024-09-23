@@ -1,3 +1,0 @@
-Every website is accesible on the internet is bult upon HTML
-An attribute is placed in the opening tag of an element right after the tag
-An attribute follows a key/value paring combination

@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 <style>
+  body,html
+  {
+    height:100%;
+    margin: 0;
+  }
+
     ul {
   list-style-type: none;
   margin: 0;
@@ -9,21 +15,23 @@
   background-color: #333;
 }
 
-li {
-  float: left;
-}
-
-li a {
+li a{
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  float: left;
 }
 
-li a:hover {
-  background-color: #111;
+.bg {
+background-image: url(https://www.beaches.com/blog/content/images/2020/03/Jamaican-Curry-Goat.jpg);
+height: 50%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
+
 </style>
 
 <head>
@@ -31,14 +39,25 @@ li a:hover {
 </head>
 
 <body>
+  <!--Nav Bar-->
     <div>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Online Ordering</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">About</a></li>
-        </ul>
+      <ul>
+        <li><a href='CSSIntroduction.html'>Home</a></li>
+        <li><a href="">Online Ordering</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">About</a></li>
+      </ul>
     </div>
+<!--Background Image-->
+  <div class="bg"></div>
+<!--Menu Items-->
+<div class="card"></div>
+  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>John Doe</b></h4>
+    <p>Architect & Engineer</p>
+  </div>
+</div>
 </body>
 
 </html>

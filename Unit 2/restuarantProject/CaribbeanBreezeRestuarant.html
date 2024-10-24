@@ -1,64 +1,106 @@
 <!DOCTYPE html>
 <html>
-<style>
-  body,html
-  {
-    height:100%;
-    margin: 0;
-  }
+  <style>
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+    }
 
     ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
 
-li a{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  float: left;
-}
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      float: left;
+    }
 
-.bg {
-background-image: url(CaribbeanBreezeDiner.png);
-height: 60%;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
+    .bg {
+      background-image: url(CaribbeanBreezeDiner.png);
+      height: 60%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 
-</style>
+    /* Card grid styling */
+    .menu-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* Ensure four columns */
+      gap: 20px;
+      padding: 20px;
+    }
 
-<head>
-    <title> Caribbean Breeze - Order Now</title>
-</head>
+    .menu-card {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+    }
 
-<body>
-  <!--Nav Bar-->
+    .menu-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .menu-card h3 {
+      margin: 10px 0;
+    }
+
+    .menu-card p {
+      margin: 5px 0;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    p {
+      padding: 0 20px;
+    }
+  </style>
+
+  <head>
+    <title>Caribbean Breeze - Order Now</title>
+  </head>
+
+  <body>
+    <!--Nav Bar-->
     <div>
       <ul>
-        <li><a href='CaribbeanBreezeRestuarant.html'>Home</a></li>
-        <li><a href='orderingMenu.html'>Online Ordering</a></li>
-        <li><a href='ContactUs.html'>Contact</a></li>
-        <li><a href='aboutUs.html'>About</a></li>
+        <li><a href="CaribbeanBreezeRestuarant.html" class="button">Home</a></li>
+        <li><a href='orderingMenu.html' class="button">Online Ordering</a></li>
+        <li><a href="#contact" class="button">Contact Us</a></li>
+        <li><a href="#about" class="button">About Us</a></li>
       </ul>
     </div>
-<!--Background Image-->
-  <div class="bg"></div>\
-  
-<!--Menu Items-->
-<div class="card"></div>
-  <img src="img_avatar.png" alt="Avatar" style="width:100%">
-  <div class="container">
-    <h4><b>John Doe</b></h4>
-    <p>Architect & Engineer</p>
-  </div>
-</div>
-</body>
 
+    <!--Background Image-->
+    <div class="bg"></div>
+
+    <!--About Us-->
+    <h3>About Us</h3>
+    <p>
+      At Caribbean Breeze Diner, we serve up the awesome flavors of the Caribbean. Founded by Mekhi Turner, Samir Smith, and Hakine Palmer, our goal is to give you a true island vibe with fresh, tasty food. 
+      We got all the favorites, like Curry Goat, Jerk Chicken, and Curry Shrimp. If you’re super hungry, go for our Jerk Wings or Fried Chicken. Can’t decide? Try our combos like the Chicken & Curry Goat or Jerk Chicken & Oxtails to get a little bit of everything.
+      Our sides are just as good, with options like Mac & Cheese, Rice and Peas, and Cabbage. And don’t forget to grab some Coco Bread—it's a must!
+      Whether you’re coming in with family or just grabbing a quick bite, Caribbean Breeze Diner is where great food and chill vibes come together.
+    </p>
+
+  </body>
 </html>

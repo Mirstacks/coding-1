@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      float: left;
+    }
+
+    .bg {
+      background-image: url(CaribbeanBreezeDiner.png);
+      height: 30%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    /* Card grid styling */
+    .menu-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .menu-card {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .menu-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .menu-card h3 {
+      margin: 10px 0;
+    }
+
+    .menu-card p {
+      margin: 5px 0;
+    }
+
+    h2 {
+      padding-left: 150px;
+      text-indent: 100px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+  </style>
+
+  <head>
+    <title> Menu Items - Order Now</title>
+  </head>
+
+  <body>
+    <!--Nav Bar-->
+    <div>
+      <ul>
+        <li><a href="#bg" class="button">Home</a></li>
+        <li><a href="#ordering" class="button">Online Ordering</a></li>
+        <li><a href="#contact" class="button">Contact Us</a></li>
+        <li><a href="#about" class="button">About Us</a></li>
+      </ul>
+    </div>
+
+    <!--Background Image-->
+    <div class="bg"></div>
+
+    <!--Main Foods-->
+    <h1><strong>Our Menu</strong></h1>
+    <h2>Main Foods:</h2>
+
+    <div class="menu-container" id="menu">
+      <div class="menu-card">
+        <img src="https://api.vip.foodnetwork.ca/wp-content/uploads/2022/10/goat-curry-feat.jpg?w=3840&quality=75">
+        <h3>Curry Goat</h3>
+        <p>Delicious description of Item 1.</p>
+        <p><strong>$11.00</strong></p>
+        <label>
+          <input type="checkbox" name="CurryGoat" value="Item 1"> Add to Cart
+        </label>
+      </div>
+      <div class="menu-card">
+        <img src="https://www.chilipeppermadness.com/wp-content/uploads/2023/06/Jamaican-Jerk-Chicken-Recipe2.jpg">
+        <h3>Jerk Chicken</h3>
+        <p>Tasty description of Item 2.</p>
+        <p><strong>$11.00</strong></p>
+        <label>
+          <input type="checkbox" name="item2" value="Item 2"> Add to Cart
+        </label>
+      </div>
+      <div class="menu-card">
+        <img src="https://www.africanbites.com/wp-content/uploads/2022/03/IMG_4168.jpg">
+        <h3>Curry Shrimp</h3>
+        <p>Scrumptious description of Item 3.</p>
+        <p><strong>$12.75</strong></p>
+        <label>
+          <input type="checkbox" name="item3" value="Item 3"> Add to Cart
+        </label>
+      </div>
+      <div class="menu-card">
+        <img src="https://grandbaby-cakes.com/wp-content/uploads/2023/04/big-mamas-fried-chicken-3.jpg">
+        <h3>Fried Chicken</h3>
+        <p>Scrumptious description of Item 3.</p>
+        <p><strong>$12.00</strong></p>
+        <label>
+          <input type="checkbox" name="item3" value="Item 3"> Add to Cart
+        </label>
+      </div>
+    </div>
+    <div class="menu-card">
+      <img src="https://grandbaby-cakes.com/wp-content/uploads/2023/04/big-mamas-fried-chicken-3.jpg">
+      <h3>Fried Chicken</h3>
+      <p>Scrumptious description of Item 3.</p>
+      <p><strong>$12.00</strong></p>
+      <label>
+        <input type="checkbox" name="item3" value="Item 3"> Add to Cart
+      </label>
+    </div>
+    <div class="menu-card">
+      <img src="https://globallyflavored.com/wp-content/uploads/2020/06/jerk-chicken-wings.jpg">
+      <h3>Jerk Wings</h3>
+      <p>Scrumptious description of Item 3.</p>
+      <p><strong>$15.00</strong></p>
+      <label>
+        <input type="checkbox" name="item3" value="Item 3"> Add to Cart
+      </label>
+    </div>
+    
+    <!--Side Items-->
+    <h2>Sides:</h2>
+    <div class="menu-container" id="sides">
+      <div class="menu-card">
+        <img src="https://www.foxyfolksy.com/wp-content/uploads/2022/02/recipe-for-pan-de-coco.jpg">
+        <h3>Coco Bread</h3>
+        <p>Sweet and delicious bread pudding.</p>
+        <p><strong>$5.00</strong></p>
+        <label>
+          <input type="checkbox" name="breadPudding" value="Bread Pudding"> Add to Cart
+        </label>
+      </div>
+      <div class="menu-card">
+        <img src="https://www.butterbeready.com/wp-content/uploads/2022/09/DK6A5627.jpg">
+        <h3>Rice and Peas</h3>
+        <p>Classic rice with kidney beans.</p>
+        <p><strong>$3.50</strong></p>
+        <label>
+          <input type="checkbox" name="riceAndPeas" value="Rice and Peas"> Add to Cart
+        </label>
+      </div>
+      <div class="menu-card">
+        <img src="https://www.thechunkychef.com/wp-content/uploads/2018/02/Ultimate-Creamy-Baked-Mac-and-Cheese-baking-dish.jpg">
+        <h3>Mac & Cheese</h3>
+        <p>Creamy mac and cheese baked to perfection.</p>
+        <p><strong>$4.00</strong></p>
+        <label>
+          <input type="checkbox" name="macAndCheese" value="Mac and Cheese"> Add to Cart
+        </label>
+      </div>
+      <div class="menu-card">
+        <img src="https://roxychowdown.com/wp-content/uploads/2020/05/Fried-Dumplings-1.jpg">
+        <h3>Fried Dumplings</h3>
+        <p>Crispy fried dumplings to pair with any meal.</p>
+        <p><strong>$2.50</strong></p>
+        <label>
+          <input type="checkbox" name="friedDumplings" value="Fried Dumplings"> Add to Cart
+        </label>
+      </div>
+    </div>
+  </body>
+</html>

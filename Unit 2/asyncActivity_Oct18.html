@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Improved Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .nav {
+            background-color: #4A4A4A;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .content-container {
+            display: flex;
+            justify-content: space-between;
+            width: 95%;
+            height: 200px;
+            margin: 10px;
+        }
+        .main-content {
+            background-color: #87CEEB;
+            padding: 20px;
+            text-align: center;
+            width: 95AS%;
+            box-sizing: border-box;
+        }
+        .advertisement {
+            background-color: #4682B4;
+            padding: 20px;
+            text-align: center;
+            width: 25%;
+            box-sizing: border-box;
+        }
+        .options {
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            margin-bottom: 20px;
+        }
+        .option {
+            background-color: #6B8E23;
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+            margin: 0 10px;
+            box-sizing: border-box;
+        }
+        .option:first-child {
+            margin-left: 0;
+        }
+        .option:last-child {
+            margin-right: 0;
+        }
+        .footer {
+            background-color: #FF7F50;
+            text-align: center;
+            padding: 20px;
+            color: white;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+<div class="nav">Nav</div>
+
+<div class="content-container">
+    <div class="main-content">Main Content</div>
+    <div class="advertisement">Advertisement</div>
+</div>
+
+<div class="options">
+    <div class="option">option 1</div>
+    <div class="option">option 2</div>
+    <div class="option">option 3</div>
+</div>
+
+<div class="footer">footer</div>
+
+</body>
+</html>

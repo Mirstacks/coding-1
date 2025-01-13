@@ -2,10 +2,11 @@
 string_concatenation = "String concatenation is when you combine two or more strings with the + (addition symbol) operator."
 
 # Example of string concatenation
-Input1 = 'This is '
-Input2 = 'Coding I 1A'  
-c = a + b
-print(c)  # Output: 'this is coding class'
+x = "This "
+y = "is "
+z = "Coding 1A"
+
+print(x + y + z)
 
 # 2. Please list and describe three rules for creating variable names.
 variableRules = """

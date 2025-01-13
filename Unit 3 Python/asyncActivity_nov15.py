@@ -59,9 +59,11 @@ print(recieverMsg)
 
 # for students learning Python
 # print('my name is' + name '.  I am ' + age + 'years old.' )
-print("Enter your name:")
-x = input(my name is)
-y = input(Samir)
-z = input("I am")
-age = input(16 years old)
-print("Hello, " + x + y + z + age )
+
+x = "My name is "
+y = "Samir. "
+z = "I am "
+a = "16 "
+b = "years old."
+
+print(x + y + z + a + b)

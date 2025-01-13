@@ -21,6 +21,28 @@ print(Num1 + Num2)
 
 # TASK 2 -
 
-"a list would be best."
-"I would use the integer data type for the numeric dates of the week"
-"I would use the string data type for the word/string days of the week." 
+# If I want to write the days of the week, I would use the string data type.
+# Example:
+days_of_week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+
+# If I want to write the dates of the week, I would use the integer data type.
+# Example:
+dates = [1, 14, 27]
+
+# TASK 3 -
+# Floats represent decimal numbers.
+# Example:
+float_example = 12.38483
+
+# Integers represent whole numbers.
+# Example:
+integer_example = 1234
+
+# TASK 4 -
+# A comment section on a picture on Instagram.
+# Data type: string
+comment = "This picture is amazing!"
+
+# A survey form that asks users if they have ever traveled to another country.
+# Data type: boolean (True/False)
+has_traveled = True

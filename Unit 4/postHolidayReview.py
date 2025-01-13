@@ -9,3 +9,12 @@
 
 # Conditional Statements - Level 3a: Being able to add more control 
 # on our function instructions.
+
+#  Billing System Function:
+# Goal: Be able to check and see if a user is past due or up-to-date.
+
+# Step 1: We need to have a function definition.
+# This tells the computer what our function does (the instructions).
+
+def checkSubscription():
+    # Take in user name as a parameter
